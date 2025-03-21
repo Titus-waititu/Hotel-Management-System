@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    }
+    header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    }
+    nav {
+    margin-top: 10px;
+    }
+    nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .btn {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    }
+    .btn:hover {
+    background: #0056b3;
+    }
+form {
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 5px;
+}
+
+ select{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+nav a:hover{
+    background-color: orange;
+}
+.form_actions{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.form_actions input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.form_actions  button {
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.rooms{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 150px;
+    background-color: yellowgreen;
+    color: black;
+}
+h2{
+    color: red;
+}
